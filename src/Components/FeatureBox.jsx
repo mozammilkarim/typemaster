@@ -43,7 +43,7 @@ const Features = ({ icon, title, description }) => {
 }
 const FeatureBox = () => {
     return (
-        <div className='xl:px-[100px] sm:px-[68px] px-[24px] grid-cols-1 grid sm:grid-cols-2 xl:grid-cols-4 gap-7'>
+        <div className='xl:px-[165px] sm:px-[68px] px-[24px] grid-cols-1 grid sm:grid-cols-2 xl:grid-cols-4 gap-7'>
             {FeatureArray.map((feature, index) => {
                 return <Features icon={feature.icon} title={feature.title} description={feature.description} />
             })}
